@@ -1,0 +1,264 @@
+.outer {
+    width: 940px;
+    height: 880px;
+    padding: 36px 160px 0px;
+    background-color: #edf2c5;
+    margin-bottom: 0px;
+}
+
+
+.logolayer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 940px;
+}
+
+.logoleft {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 271px;
+    height: 62px;
+}
+
+.logo {
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50
+}
+
+.fb {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-left: 0px;
+    object-fit: contain;
+}
+
+.ig {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-left: 0px;
+    object-fit: contain;
+}
+
+.line hr {
+    width: 1px;
+    height: 25px;
+    margin-left: 0px;
+    margin-right: 10px;
+    background-color: #778a50;
+}
+
+.logoright {
+    display: flex;
+    flex-direction: row;
+    width: 271px;
+    height: 62px;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.loginbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 25px;
+    margin-right: 10px;
+    margin-left: 0px;
+    padding: 5px 7px;
+    border: solid 1px #778a50;
+    border-radius: 5%;
+
+}
+
+.login {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+}
+
+.joinbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49px;
+    height: 25px;
+    margin-left: 0px;
+    padding: 5px 7px;
+    border: solid 1px #778a50;
+    border-radius: 5%;
+}
+
+.join {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50
+}
+
+.navitem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 600px;
+    height: 35px;
+    padding: 10px 316px 11px 30px;
+    border-radius: 3px;
+    background-color: #778a50;
+}
+
+.navlink {
+    margin-left: 40px;
+    margin-right: 0px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+}
+
+nav a {
+    color: inherit;
+    /* 移除超連結顏色 */
+    text-decoration: none;
+    /* 移除超連結底線 */
+}
+
+nav ul {
+    list-style: none;
+    /* 移除項目符號 */
+}
+
+.pumpkin {
+    width: 940px;
+    height: 448px;
+    margin: 10px 0 30px;
+    object-fit: contain;
+
+}
+
+.layer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 940px;
+}
+
+.layer2left {
+    width: 450px;
+    height: 200px;
+}
+
+.layer2right {
+    width: 450px;
+    height: 200px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    width: 430px;
+    height: 35px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    background-color: #778a50;
+}
+
+.title h4 {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 450px;
+    margin-top: 20px;
+
+}
+
+.innertext {
+    width: 430px;
+    height: 120px;
+    margin-top: 20px;
+    padding: 10px;
+    /*padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;*/
+    background-color: #f7fbda;
+}
+
+.innertext p {
+    margin: 0 0 15px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7d7d7d;
+}
+
+.footertext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1260px;
+    height: 60px;
+    background-color: #778a50;
+    margin-top: 0px;
+}
+
+.footertext h6 {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+}
+
